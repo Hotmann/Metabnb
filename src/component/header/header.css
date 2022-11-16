@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.btn__1 {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 26px;
+  color: #ffffff;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.nav__bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+}
+
+.nav__list {
+  font-family: "Red Rose";
+  font-size: 20px;
+  color: #434343;
+  text-decoration: none;
+}
+
+.group h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 32.19px;
+  background: linear-gradient(
+    91.47deg,
+    #dc3e88 18.25%,
+    #b840ae 43.34%,
+    #843fe8 78.18%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

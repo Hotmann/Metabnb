@@ -1,0 +1,17 @@
+.section-2 {
+  padding: 39px 100px 53px 100px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 0 43px 0;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+}

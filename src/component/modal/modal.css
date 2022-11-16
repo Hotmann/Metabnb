@@ -1,0 +1,79 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 600px;
+  left: 420px;
+  top: 347px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  z-index: 1000;
+}
+
+.close {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  align-self: stretch;
+  border-bottom: 1px solid #cfd8dc;
+}
+
+.side {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.preffered {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.request {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 135px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #cfd8dc;
+}
+
+.wallet:active {
+  background: #f8f9fa;
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.wallet-name {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
