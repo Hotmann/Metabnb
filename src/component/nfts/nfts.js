@@ -18,11 +18,11 @@ const NFTs = () => (
         Learn more
       </a>
     </div>
-    {/* <div className="background-images">
+    <div className="background-images">
       <img src={nft1} alt="Image1" className="background-image nft-image-1" />
       <img src={nft2} alt="Image2" className="background-image nft-image-2" />
       <img src={nft3} alt="Image3" className="background-image nft-image-3" />
-    </div> */}
+    </div>
   </div>
 );
 

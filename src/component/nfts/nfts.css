@@ -5,10 +5,11 @@
   background-color: #a02279;
   border: 1px solid #000000;
   padding: 100px;
+  height: 570px;
 }
 
 .aside-1 {
-  width: 415px;
+  width: 33.6%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -16,6 +17,7 @@
 
 .background-images {
   position: relative;
+  width: 57%;
 }
 
 .title-2 {
@@ -29,6 +31,7 @@
   font-size: 18px;
   line-height: 35px;
   color: #ffffff;
+  margin: 35px 0 57px 0;
 }
 
 .btn__2 {
@@ -43,8 +46,8 @@
 }
 
 .background-image {
-  width: 378.2px;
-  height: 253.89px;
+  width: 53.5%;
+  height: 44.7%;
   border-radius: 10px;
   position: absolute;
 }
@@ -52,19 +55,71 @@
 .nft-image-1 {
   transform: rotate(-26.02deg);
   z-index: 20;
-  left: 0px;
-  top: 0px;
+  right: 352px;
+  top: 215px;
 }
 .nft-image-2 {
   transform: rotate(17.76deg);
   z-index: 10;
-  left: 0px;
-  top: 0px;
+  right: 90px;
+  top: 40px;
 }
 
 .nft-image-3 {
   transform: rotate(-8.76deg);
   z-index: 30;
-  left: 0px;
-  top: 0px;
+  right: 55px;
+  top: 262px;
 }
+@media only screen and (max-width: 1320px) {
+  .background-image {
+    width: 50.5%;
+    height: 215.89px;
+    border-radius: 10px;
+    position: absolute;
+  }
+
+  .nft-image-1 {
+    transform: rotate(-26.02deg);
+    z-index: 20;
+    right: 275px;
+    top: 190px;
+  }
+
+  .nft-image-3 {
+    top: 235px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .nfts {
+    padding: 80px;
+  }
+}
+/*.background-image {
+    width: 378.2px;
+    height: 253.89px;
+    border-radius: 10px;
+    position: absolute;
+  }
+
+  .nft-image-1 {
+    transform: rotate(-26.02deg);
+    z-index: 20;
+    right: 287px;
+    top: 215px;
+  }
+  .nft-image-2 {
+    transform: rotate(17.76deg);
+    z-index: 10;
+    right: 90px;
+    top: 40px;
+  }
+
+  .nft-image-3 {
+    transform: rotate(-8.76deg);
+    z-index: 30;
+    right: 30px;
+    top: 270px;
+  }
+} */

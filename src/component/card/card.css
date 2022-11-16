@@ -1,7 +1,11 @@
 .card-container {
   border: 1px solid #d7d7d7;
   border-radius: 15px;
-  padding: 28px;
+  padding: 1rem;
+}
+
+.image {
+  width: 100%;
 }
 
 .tags {

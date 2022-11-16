@@ -20,7 +20,10 @@
   text-decoration: none;
 }
 
-.loaction-search {
+.location-search {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 .search-input {
   font-weight: 400;
@@ -29,4 +32,9 @@
   border: 1px solid #b4b4b4;
   border-radius: 8px;
   padding: 14px;
+}
+
+.label {
+  position: absolute;
+  right: 15px;
 }
