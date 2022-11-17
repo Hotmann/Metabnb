@@ -45,7 +45,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   ul {
     justify-content: space-around;
     flex-direction: column;

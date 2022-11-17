@@ -10,7 +10,7 @@
   transform: translate(-50%, -50%);
 }
 
-.close {
+.back {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -74,4 +74,10 @@
   font-size: 18px;
   line-height: 23px;
   color: #000000;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal {
+    width: 80%;
+  }
 }

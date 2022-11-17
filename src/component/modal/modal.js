@@ -19,7 +19,7 @@ const Modal = (props) => {
           opacity: props.show ? "1" : "0",
         }}
       >
-        <div className="close">
+        <div className="back">
           <h3 className="side">Connect Wallet</h3>
           <Close onClick={props.modalClosed} />
         </div>
