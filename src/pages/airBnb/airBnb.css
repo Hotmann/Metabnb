@@ -137,3 +137,39 @@
     width: 60%;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .section-1 {
+    flex-direction: column;
+    padding: 0 2.5rem;
+    gap: 30px;
+  }
+
+  .col-1 {
+    width: 500px;
+  }
+  .heading-1 {
+    font-size: 55px;
+  }
+
+  .txt {
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  .search-label {
+    max-width: 230px;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .col-2 {
+    display: block;
+  }
+  .section-1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -60,3 +60,27 @@
     padding: 0 80px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    padding: 0 25px;
+  }
+
+  .btn__1 {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 6px;
+  }
+
+  .nav__bar {
+    gap: 13px;
+  }
+}
+
+/* @media only screen and (max-width: 480px) {
+  .header {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+} */

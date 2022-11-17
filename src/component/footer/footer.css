@@ -73,3 +73,32 @@
     padding: 58px 80px 37px 80px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .footer {
+    padding: 58px 65px 37px 40px;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  /* .social {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  } */
+
+  .connect {
+    justify-content: space-between;
+    margin: 12px 0;
+  }
+
+  /* .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+  } */
+
+  .col {
+    gap: 26px;
+  }
+}

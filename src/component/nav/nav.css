@@ -27,3 +27,20 @@ li {
   line-height: 27px;
   letter-spacing: 0.02em;
 }
+@media only screen and (max-width: 1024px) {
+  li {
+    font-size: 30px;
+    line-height: 96%;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    gap: 10px;
+  }
+
+  .token {
+    font-family: "AirbnbCereal_W_Bd";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+  }
+}

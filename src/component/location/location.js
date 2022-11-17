@@ -7,7 +7,7 @@ import "./location.css";
 const Location = (props) => {
   return (
     <div className="card-container">
-      <img alt={props.title} src={props.image} />
+      <img alt={props.title} src={props.image} className="image" />
       <div className="tags">
         <p>Desert king</p>
         <p className="emp">1MBT per night</p>

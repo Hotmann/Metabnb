@@ -96,30 +96,61 @@
     padding: 80px;
   }
 }
-/*.background-image {
-    width: 378.2px;
-    height: 253.89px;
-    border-radius: 10px;
-    position: absolute;
+
+@media only screen and (max-width: 1024px) {
+  .nfts {
+    flex-direction: column;
+    padding: 40px;
+    height: 900px;
+  }
+
+  .aside-1 {
+    width: 100%;
+  }
+
+  .background-images {
+    width: 100%;
   }
 
   .nft-image-1 {
-    transform: rotate(-26.02deg);
-    z-index: 20;
-    right: 287px;
-    top: 215px;
+    left: 3rem;
+    top: -14rem;
   }
   .nft-image-2 {
     transform: rotate(17.76deg);
     z-index: 10;
-    right: 90px;
-    top: 40px;
+    left: 14.2rem;
+    top: -22rem;
+  }
+
+  .nft-image-3 {
+    left: 16rem;
+    top: -11rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nfts {
+    height: 900px;
+  }
+
+  .background-image {
+    width: 43.5%;
+    height: 216px;
+  }
+  .nft-image-1 {
+    left: 3rem;
+    top: -18rem;
+  }
+  .nft-image-2 {
+    left: 16.2rem;
+    top: -26rem;
   }
 
   .nft-image-3 {
     transform: rotate(-8.76deg);
     z-index: 30;
-    right: 30px;
-    top: 270px;
+    left: 16rem;
+    top: -15rem;
   }
-} */
+}
