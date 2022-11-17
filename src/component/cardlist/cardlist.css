@@ -24,9 +24,20 @@
 
 @media only screen and (max-width: 1024px) {
   .card-list {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 24px;
+  }
+
+  .section-2 {
+    padding: 39px 65px 53px 40px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
   }
 
   .section-2 {
