@@ -15,9 +15,15 @@ const Footer = () => (
         <h1>Metabnb</h1>
       </div>
       <div className="social">
-        <Facebook />
-        <Instagram />
-        <Twitter />
+        <a href="/">
+          <Facebook />
+        </a>
+        <a href="/">
+          <Instagram />
+        </a>
+        <a href="/">
+          <Twitter />
+        </a>
       </div>
       <span className="copy">&copy; 2022 Metabnb</span>
     </div>

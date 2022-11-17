@@ -62,4 +62,8 @@
   .desktop {
     display: none;
   }
+
+  .button {
+    display: none;
+  }
 }

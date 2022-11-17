@@ -2,6 +2,7 @@ import React from "react";
 
 import Navigation from "../navigation/navigation";
 import Backdrop from "../Backdrop/Backdrop";
+import Button from "../button/button";
 
 import "./sideDrawer.css";
 
@@ -17,6 +18,9 @@ const sideDrawer = (props) => {
         <nav>
           <Navigation />
         </nav>
+        <div>
+          <Button />
+        </div>
       </div>
     </div>
   );

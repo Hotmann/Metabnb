@@ -1,0 +1,12 @@
+.btn__1 {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 26px;
+  color: #ffffff;
+}

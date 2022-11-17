@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DrawerToggle from "../sideDrawer/drawerToggle/drawerToggle";
 import Navigation from "../navigation/navigation";
 import SideDrawer from "../sideDrawer/sideDrawer";
+import Button from "../button/button";
 import Modal from "../modal/modal";
 
 import { ReactComponent as Logo } from "../../assets/logo.svg";
@@ -40,9 +41,9 @@ function Header() {
         <nav className="desktop">
           <Navigation />
         </nav>
-        <button className="btn__1" onClick={toggleModal}>
-          Connect wallet
-        </button>
+        <div className="button">
+          <Button toggle={toggleModal} />
+        </div>
         <DrawerToggle clicked={sideDrawerToggleHandler} />
         <SideDrawer open={showSideDrawer} closed={sideDrawerClosedHandler} />
       </div>
