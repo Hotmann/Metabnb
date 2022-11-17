@@ -140,20 +140,19 @@
 
 @media only screen and (max-width: 1024px) {
   .section-1 {
-    flex-direction: column;
     padding: 0 2.5rem;
-    gap: 30px;
+    gap: 25px;
   }
 
   .col-1 {
-    width: 500px;
+    width: 450px;
   }
   .heading-1 {
-    font-size: 55px;
+    font-size: 44px;
   }
 
   .txt {
-    font-size: 23px;
+    font-size: 18px;
     line-height: 28px;
   }
 

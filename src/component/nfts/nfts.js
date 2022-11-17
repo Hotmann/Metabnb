@@ -1,8 +1,6 @@
 import React from "react";
 
-import nft1 from "../../assets/nft-images/nft-1.png";
-import nft2 from "../../assets/nft-images/nft-2.png";
-import nft3 from "../../assets/nft-images/nft-3.png";
+import nft from "../../assets/nft-images/right.png";
 import "./nfts.css";
 
 const NFTs = () => (
@@ -18,11 +16,7 @@ const NFTs = () => (
         Learn more
       </a>
     </div>
-    <div className="background-images">
-      <img src={nft1} alt="Image1" className="background-image nft-image-1" />
-      <img src={nft2} alt="Image2" className="background-image nft-image-2" />
-      <img src={nft3} alt="Image3" className="background-image nft-image-3" />
-    </div>
+    <img src={nft} alt="Image1" className="nft-image" />
   </div>
 );
 

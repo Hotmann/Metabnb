@@ -35,7 +35,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
   .card-list {
     grid-template-columns: 1fr 1fr;
   }
@@ -45,5 +45,14 @@
   }
   .title {
     font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+  .section-2 {
+    padding: 37px 10px 53px 10px;
   }
 }

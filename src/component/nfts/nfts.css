@@ -5,19 +5,17 @@
   background-color: #a02279;
   border: 1px solid #000000;
   padding: 100px;
-  height: 570px;
+  align-items: center;
 }
 
 .aside-1 {
-  width: 33.6%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.background-images {
-  position: relative;
-  width: 57%;
+.nft-image {
+  width: 56.9%;
 }
 
 .title-2 {
@@ -25,6 +23,8 @@
   font-size: 48px;
   line-height: 60px;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .note {
@@ -52,38 +52,12 @@
   position: absolute;
 }
 
-.nft-image-1 {
-  transform: rotate(-26.02deg);
-  z-index: 20;
-  right: 352px;
-  top: 215px;
-}
-.nft-image-2 {
-  transform: rotate(17.76deg);
-  z-index: 10;
-  right: 90px;
-  top: 40px;
-}
-
-.nft-image-3 {
-  transform: rotate(-8.76deg);
-  z-index: 30;
-  right: 55px;
-  top: 262px;
-}
 @media only screen and (max-width: 1320px) {
   .background-image {
     width: 50.5%;
     height: 215.89px;
     border-radius: 10px;
     position: absolute;
-  }
-
-  .nft-image-1 {
-    transform: rotate(-26.02deg);
-    z-index: 20;
-    right: 275px;
-    top: 190px;
   }
 
   .nft-image-3 {
@@ -95,62 +69,50 @@
   .nfts {
     padding: 80px;
   }
+
+  .title-2 {
+    font-size: 38px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+
+  .note {
+    font-size: 17px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 20px 0 35px 0;
+  }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 767px) {
   .nfts {
     flex-direction: column;
     padding: 40px;
-    height: 900px;
+    gap: 38px;
   }
 
   .aside-1 {
     width: 100%;
   }
 
-  .background-images {
-    width: 100%;
+  .title-2 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
   }
 
-  .nft-image-1 {
-    left: 3rem;
-    top: -14rem;
-  }
-  .nft-image-2 {
-    transform: rotate(17.76deg);
-    z-index: 10;
-    left: 14.2rem;
-    top: -22rem;
-  }
-
-  .nft-image-3 {
-    left: 16rem;
-    top: -11rem;
+  .note {
+    font-size: 18px;
+    line-height: 35px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .nfts {
-    height: 900px;
+    padding: 20px;
   }
 
-  .background-image {
-    width: 43.5%;
-    height: 216px;
-  }
-  .nft-image-1 {
-    left: 3rem;
-    top: -18rem;
-  }
-  .nft-image-2 {
-    left: 16.2rem;
-    top: -26rem;
-  }
-
-  .nft-image-3 {
-    transform: rotate(-8.76deg);
-    z-index: 30;
-    left: 16rem;
-    top: -15rem;
+  .aside-1 {
+    width: 100%;
   }
 }
